@@ -1,0 +1,21 @@
+def:
+- cc: gcc
+- version: 5.2.4
+- ver: 52
+- install_root_dir: ..\..\install\windows\${version}
+- install_bin_dir: ${install_root_dir}\bin
+- install_lib_dir: ${install_root_dir}\lib
+- dir_src: ..\..\src\${version}
+- dir_tmp: ..\..\tmp\windows\${version}
+- dir_tmp_lua: ${dir_tmp}\lua
+- dir_tmp_luac: ${dir_tmp}\luac
+- lib_for_lua: ${install_lib_dir}\lua${ver}.dll
+- lib_for_luac: liblua${ver}.a
+- binary_lua: ${install_dir}\bin\lua.exe
+- binary_luac: luac.exe
+
+rule:
+- mkdir: cmd /c if not exist "$dir"  mkdir "$dir"
+
+include: ..\common\mkdir.ninja
+# subninja: ..\common\build_lua.ninja

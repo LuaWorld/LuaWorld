@@ -1,0 +1,23 @@
+task:
+- out: dir_tmp_lua
+  def:
+  - dir: $dir_tmp_lua
+  rule: mkdir
+
+- out: dir_tmp_luac
+  def:
+  - dir: $dir_tmp_luac
+  rule: mkdir
+  dep|: dir_tmp_lua
+
+- out: install_bin_dir
+  def:
+  - dir: $install_bin_dir
+  rule: mkdir
+
+- out: install_lib_dir
+  def:
+  - dir: $install_lib_dir
+  rule: mkdir
+  dep|: install_bin_dir
+  

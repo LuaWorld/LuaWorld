@@ -1,0 +1,83 @@
+cd src && D:/install/MinGW64/bin/make mingw
+make[1]: Entering directory 'G:/DEVELOP/LuaWorld/apps/lua/src/5.2.4/src'
+D:/install/MinGW64/bin/make "LUA_A=lua52.dll" "LUA_T=lua.exe" \
+"AR=gcc -shared -o" "RANLIB=strip --strip-unneeded" \
+"SYSCFLAGS=-DLUA_BUILD_AS_DLL" "SYSLIBS=" "SYSLDFLAGS=-s" lua.exe
+make[2]: Entering directory 'G:/DEVELOP/LuaWorld/apps/lua/src/5.2.4/src'
+gcc -O2 -Wall -DLUA_COMPAT_ALL -DLUA_BUILD_AS_DLL    -c -o lua.o lua.c
+gcc -O2 -Wall -DLUA_COMPAT_ALL -DLUA_BUILD_AS_DLL    -c -o lapi.o lapi.c
+gcc -O2 -Wall -DLUA_COMPAT_ALL -DLUA_BUILD_AS_DLL    -c -o lcode.o lcode.c
+gcc -O2 -Wall -DLUA_COMPAT_ALL -DLUA_BUILD_AS_DLL    -c -o lctype.o lctype.c
+gcc -O2 -Wall -DLUA_COMPAT_ALL -DLUA_BUILD_AS_DLL    -c -o ldebug.o ldebug.c
+gcc -O2 -Wall -DLUA_COMPAT_ALL -DLUA_BUILD_AS_DLL    -c -o ldo.o ldo.c
+gcc -O2 -Wall -DLUA_COMPAT_ALL -DLUA_BUILD_AS_DLL    -c -o ldump.o ldump.c
+gcc -O2 -Wall -DLUA_COMPAT_ALL -DLUA_BUILD_AS_DLL    -c -o lfunc.o lfunc.c
+gcc -O2 -Wall -DLUA_COMPAT_ALL -DLUA_BUILD_AS_DLL    -c -o lgc.o lgc.c
+gcc -O2 -Wall -DLUA_COMPAT_ALL -DLUA_BUILD_AS_DLL    -c -o llex.o llex.c
+gcc -O2 -Wall -DLUA_COMPAT_ALL -DLUA_BUILD_AS_DLL    -c -o lmem.o lmem.c
+gcc -O2 -Wall -DLUA_COMPAT_ALL -DLUA_BUILD_AS_DLL    -c -o lobject.o lobject.c
+gcc -O2 -Wall -DLUA_COMPAT_ALL -DLUA_BUILD_AS_DLL    -c -o lopcodes.o lopcodes.c
+gcc -O2 -Wall -DLUA_COMPAT_ALL -DLUA_BUILD_AS_DLL    -c -o lparser.o lparser.c
+gcc -O2 -Wall -DLUA_COMPAT_ALL -DLUA_BUILD_AS_DLL    -c -o lstate.o lstate.c
+gcc -O2 -Wall -DLUA_COMPAT_ALL -DLUA_BUILD_AS_DLL    -c -o lstring.o lstring.c
+gcc -O2 -Wall -DLUA_COMPAT_ALL -DLUA_BUILD_AS_DLL    -c -o ltable.o ltable.c
+gcc -O2 -Wall -DLUA_COMPAT_ALL -DLUA_BUILD_AS_DLL    -c -o ltm.o ltm.c
+gcc -O2 -Wall -DLUA_COMPAT_ALL -DLUA_BUILD_AS_DLL    -c -o lundump.o lundump.c
+gcc -O2 -Wall -DLUA_COMPAT_ALL -DLUA_BUILD_AS_DLL    -c -o lvm.o lvm.c
+gcc -O2 -Wall -DLUA_COMPAT_ALL -DLUA_BUILD_AS_DLL    -c -o lzio.o lzio.c
+gcc -O2 -Wall -DLUA_COMPAT_ALL -DLUA_BUILD_AS_DLL    -c -o lauxlib.o lauxlib.c
+gcc -O2 -Wall -DLUA_COMPAT_ALL -DLUA_BUILD_AS_DLL    -c -o lbaselib.o lbaselib.c
+gcc -O2 -Wall -DLUA_COMPAT_ALL -DLUA_BUILD_AS_DLL    -c -o lbitlib.o lbitlib.c
+gcc -O2 -Wall -DLUA_COMPAT_ALL -DLUA_BUILD_AS_DLL    -c -o lcorolib.o lcorolib.c
+gcc -O2 -Wall -DLUA_COMPAT_ALL -DLUA_BUILD_AS_DLL    -c -o ldblib.o ldblib.c
+gcc -O2 -Wall -DLUA_COMPAT_ALL -DLUA_BUILD_AS_DLL    -c -o liolib.o liolib.c
+gcc -O2 -Wall -DLUA_COMPAT_ALL -DLUA_BUILD_AS_DLL    -c -o lmathlib.o lmathlib.c
+gcc -O2 -Wall -DLUA_COMPAT_ALL -DLUA_BUILD_AS_DLL    -c -o loslib.o loslib.c
+gcc -O2 -Wall -DLUA_COMPAT_ALL -DLUA_BUILD_AS_DLL    -c -o lstrlib.o lstrlib.c
+gcc -O2 -Wall -DLUA_COMPAT_ALL -DLUA_BUILD_AS_DLL    -c -o ltablib.o ltablib.c
+gcc -O2 -Wall -DLUA_COMPAT_ALL -DLUA_BUILD_AS_DLL    -c -o loadlib.o loadlib.c
+gcc -O2 -Wall -DLUA_COMPAT_ALL -DLUA_BUILD_AS_DLL    -c -o linit.o linit.c
+gcc -shared -o lua52.dll lapi.o lcode.o lctype.o ldebug.o ldo.o ldump.o lfunc.o lgc.o llex.o lmem.o lobject.o lopcodes.o lparser.o lstate.o lstring.o ltable.o ltm.o lundump.o lvm.o lzio.o lauxlib.o lbaselib.o lbitlib.o lcorolib.o ldblib.o liolib.o lmathlib.o loslib.o lstrlib.o ltablib.o loadlib.o linit.o 
+strip --strip-unneeded lua52.dll
+gcc -o lua.exe -s  lua.o lua52.dll -lm  
+make[2]: Leaving directory 'G:/DEVELOP/LuaWorld/apps/lua/src/5.2.4/src'
+D:/install/MinGW64/bin/make "LUAC_T=luac.exe" luac.exe
+make[2]: Entering directory 'G:/DEVELOP/LuaWorld/apps/lua/src/5.2.4/src'
+gcc -O2 -Wall -DLUA_COMPAT_ALL     -c -o luac.o luac.c
+gcc -O2 -Wall -DLUA_COMPAT_ALL     -c -o lapi.o lapi.c
+gcc -O2 -Wall -DLUA_COMPAT_ALL     -c -o lcode.o lcode.c
+gcc -O2 -Wall -DLUA_COMPAT_ALL     -c -o lctype.o lctype.c
+gcc -O2 -Wall -DLUA_COMPAT_ALL     -c -o ldebug.o ldebug.c
+gcc -O2 -Wall -DLUA_COMPAT_ALL     -c -o ldo.o ldo.c
+gcc -O2 -Wall -DLUA_COMPAT_ALL     -c -o ldump.o ldump.c
+gcc -O2 -Wall -DLUA_COMPAT_ALL     -c -o lfunc.o lfunc.c
+gcc -O2 -Wall -DLUA_COMPAT_ALL     -c -o lgc.o lgc.c
+gcc -O2 -Wall -DLUA_COMPAT_ALL     -c -o llex.o llex.c
+gcc -O2 -Wall -DLUA_COMPAT_ALL     -c -o lmem.o lmem.c
+gcc -O2 -Wall -DLUA_COMPAT_ALL     -c -o lobject.o lobject.c
+gcc -O2 -Wall -DLUA_COMPAT_ALL     -c -o lopcodes.o lopcodes.c
+gcc -O2 -Wall -DLUA_COMPAT_ALL     -c -o lparser.o lparser.c
+gcc -O2 -Wall -DLUA_COMPAT_ALL     -c -o lstate.o lstate.c
+gcc -O2 -Wall -DLUA_COMPAT_ALL     -c -o lstring.o lstring.c
+gcc -O2 -Wall -DLUA_COMPAT_ALL     -c -o ltable.o ltable.c
+gcc -O2 -Wall -DLUA_COMPAT_ALL     -c -o ltm.o ltm.c
+gcc -O2 -Wall -DLUA_COMPAT_ALL     -c -o lundump.o lundump.c
+gcc -O2 -Wall -DLUA_COMPAT_ALL     -c -o lvm.o lvm.c
+gcc -O2 -Wall -DLUA_COMPAT_ALL     -c -o lzio.o lzio.c
+gcc -O2 -Wall -DLUA_COMPAT_ALL     -c -o lauxlib.o lauxlib.c
+gcc -O2 -Wall -DLUA_COMPAT_ALL     -c -o lbaselib.o lbaselib.c
+gcc -O2 -Wall -DLUA_COMPAT_ALL     -c -o lbitlib.o lbitlib.c
+gcc -O2 -Wall -DLUA_COMPAT_ALL     -c -o lcorolib.o lcorolib.c
+gcc -O2 -Wall -DLUA_COMPAT_ALL     -c -o ldblib.o ldblib.c
+gcc -O2 -Wall -DLUA_COMPAT_ALL     -c -o liolib.o liolib.c
+gcc -O2 -Wall -DLUA_COMPAT_ALL     -c -o lmathlib.o lmathlib.c
+gcc -O2 -Wall -DLUA_COMPAT_ALL     -c -o loslib.o loslib.c
+gcc -O2 -Wall -DLUA_COMPAT_ALL     -c -o lstrlib.o lstrlib.c
+gcc -O2 -Wall -DLUA_COMPAT_ALL     -c -o ltablib.o ltablib.c
+gcc -O2 -Wall -DLUA_COMPAT_ALL     -c -o loadlib.o loadlib.c
+gcc -O2 -Wall -DLUA_COMPAT_ALL     -c -o linit.o linit.c
+ar rcu liblua.a lapi.o lcode.o lctype.o ldebug.o ldo.o ldump.o lfunc.o lgc.o llex.o lmem.o lobject.o lopcodes.o lparser.o lstate.o lstring.o ltable.o ltm.o lundump.o lvm.o lzio.o lauxlib.o lbaselib.o lbitlib.o lcorolib.o ldblib.o liolib.o lmathlib.o loslib.o lstrlib.o ltablib.o loadlib.o linit.o 
+ranlib liblua.a
+gcc -o luac.exe   luac.o liblua.a -lm  
+make[2]: Leaving directory 'G:/DEVELOP/LuaWorld/apps/lua/src/5.2.4/src'
+make[1]: Leaving directory 'G:/DEVELOP/LuaWorld/apps/lua/src/5.2.4/src'

@@ -1,0 +1,11 @@
+build dir_tmp_lua: mkdir 
+  dir = $dir_tmp_lua
+
+build dir_tmp_luac: mkdir  | dir_tmp_lua
+  dir = $dir_tmp_luac
+
+build install_bin_dir: mkdir 
+  dir = $install_bin_dir
+
+build install_lib_dir: mkdir  | install_bin_dir
+  dir = $install_lib_dir

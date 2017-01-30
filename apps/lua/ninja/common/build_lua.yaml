@@ -1,0 +1,16 @@
+def:
+- macro_common:
+  - -DLUA_COMPAT_ALL
+- macro_build_lua:
+  - -DLUA_BUILD_AS_DLL
+- cc_flags_build_obj:
+  - -O2
+  - -Wall
+- cc_flags_build_lua_lib:
+  - -shared
+
+rules:
+- build_obj:  $cc $cc_flags_obj $macro_common $macro_for_lua -c -o $out $in
+- build_lib: $cc $cc_flags_shared_lib -o $out $in
+- strip_lib: strip --strip-unneeded $lib_for_lua
+- build_lua: $cc -o lua

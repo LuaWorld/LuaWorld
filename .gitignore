@@ -1,4 +1,7 @@
 sublime
+*tmp
+*ninja_deps
+*ninja_log
 # Object files
 *.o
 *.ko

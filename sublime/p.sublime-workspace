@@ -4,160 +4,60 @@
 		"selected_items":
 		[
 			[
-				"out",
-				"out_dir"
+				"luaro",
+				"luarocks_path"
 			],
 			[
-				"ou",
-				"out_dir"
+				"App",
+				"AppDataDir"
 			],
 			[
-				"tar",
-				"target_mol"
+				"d",
+				"default"
 			],
 			[
-				"box",
-				"box_lengths"
+				"cudnn",
+				"cudnn_path"
 			],
 			[
-				"sor",
-				"sorting_indexes"
+				"n",
+				"n_prediction"
 			],
 			[
-				"perm",
-				"permeation_indexes"
+				"inde",
+				"indexes1"
 			],
 			[
-				"pro",
-				"proj_root_dir"
+				"defa",
+				"defaultMatrixSize\tconst"
 			],
 			[
-				"ba",
-				"basis_matrix"
+				"rand",
+				"randomizeButtonId\tconst"
 			],
 			[
-				"grid",
-				"grid_params"
+				"random",
+				"randomizeMatrix\talias"
 			],
 			[
-				"glic",
-				"glic_epotential_100mV_1d"
+				"replac",
+				"replaceWith\tmethod"
 			],
 			[
-				"in",
-				"indexes"
+				"randomize",
+				"randomizeButtonId\tconst"
 			],
 			[
-				"shif",
-				"shift_range"
+				"show",
+				"showMatrixButton\tconst"
 			],
 			[
-				"patt",
-				"pattern_i"
+				"matr",
+				"matrix_size"
 			],
 			[
-				"pat",
-				"pattern_start"
-			],
-			[
-				"be",
-				"beggin_end"
-			],
-			[
-				"read",
-				"readIndexList"
-			],
-			[
-				"range",
-				"range_aux"
-			],
-			[
-				"num",
-				"numpy"
-			],
-			[
-				"ass",
-				"assignPeriodicStates1D"
-			],
-			[
-				"nu",
-				"numpy"
-			],
-			[
-				"peri",
-				"periodicID"
-			],
-			[
-				"region",
-				"region_lengths"
-			],
-			[
-				"divi",
-				"dividers"
-			],
-			[
-				"shi",
-				"shifted_data"
-			],
-			[
-				"data",
-				"data_list"
-			],
-			[
-				"col",
-				"col_id"
-			],
-			[
-				"outpu",
-				"output_file"
-			],
-			[
-				"file",
-				"file_name"
-			],
-			[
-				"mol",
-				"mol_id"
-			],
-			[
-				"get",
-				"getBoxSize_aux"
-			],
-			[
-				"last",
-				"last_frame"
-			],
-			[
-				"las",
-				"last_frame"
-			],
-			[
-				"add",
-				"addDataIndexColumn"
-			],
-			[
-				"exc",
-				"exceptions"
-			],
-			[
-				"main",
-				"main_tcl"
-			],
-			[
-				"fie",
-				"field_name"
-			],
-			[
-				"output",
-				"output_prefix"
-			],
-			[
-				"minimi",
-				"minimization_steps"
-			],
-			[
-				"if",
-				"ifmain\tif __name__ == '__main__'"
+				"cell",
+				"cell_class\tparameter"
 			]
 		]
 	},
@@ -171,27 +71,22 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 392.0,
-		"last_filter": "package",
+		"height": 129.0,
+		"last_filter": "install",
 		"selected_items":
 		[
 			[
-				"package",
+				"install",
 				"Package Control: Install Package"
-			],
-			[
-				"pack",
-				"Package Control: Add Repository"
 			]
 		],
-		"width": 485.0
+		"width": 502.0
 	},
 	"console":
 	{
-		"height": 126.0,
+		"height": 162.0,
 		"history":
 		[
-			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
 			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
 		]
 	},
@@ -206,148 +101,142 @@
 	},
 	"expanded_folders":
 	[
-		"/Scr/scr-test-steven/repo/LuaWorld",
-		"/Scr/scr-test-steven/repo/LuaWorld/apps",
-		"/Scr/scr-test-steven/repo/LuaWorld/apps/lua/5.2.4/bin",
-		"/Scr/scr-test-steven/repo/LuaWorld/apps/yamlua",
-		"/Scr/scr-test-steven/repo/LuaWorld/build",
-		"/Scr/scr-test-steven/repo/LuaWorld/deps",
-		"/Scr/scr-test-steven/repo/LuaWorld/sublime"
+		"/G/DEVELOP/LuaWorld"
 	],
 	"file_history":
 	[
-		"/Scr/scr-test-steven/repo/LuaWorld/build.yaml",
-		"/Scr/scr-test-steven/repo/LuaWorld/apps/lua/5.2.4/LICENSE.md",
-		"/Scr/scr-test-steven/repo/LuaWorld/apps/lua/5.2.4/README",
-		"/Scr/scr-test-steven/repo/LuaWorld/apps/yamlua/LICENSE",
-		"/Scr/scr-test-steven/repo/yamlua/LICENSE",
-		"/Scr/scr-test-steven/repo/yamlua/cc.yaml",
-		"/Scr/scr-test-steven/repo/yamlua/build/yamlua.lua",
-		"/Scr/scr-test-steven/repo/yamlua/AUTHORS",
-		"/Scr/scr-test-steven/Programs/automagical/git-master/build.sh",
-		"/Scr/scr-test-steven/Programs/automagical/sandbox/test.lua",
-		"/Scr/scr-test-steven/Programs/automagical/sandbox/main.lua",
-		"/Scr/scr-test-steven/Programs/automagical/sandbox/build.sh",
-		"/Scr/scr-test-steven/Programs/automagical/sandbox/yamlua.lua",
-		"/Scr/scr-test-steven/Programs/lyaml/lyaml-release-v6.1/make.log",
-		"/Scr/scr-test-steven/repo/lyaml/ninja/cc.yaml",
-		"/Scr/scr-test-steven/repo/lyaml/LICENSE",
-		"/Scr/scr-test-steven/repo/lyaml/ninja/build.ninja",
-		"/Scr/scr-test-steven/Programs/automagical/sandbox/lyaml/yamlua.lua",
-		"/Scr/scr-test-steven/Programs/automagical/sandbox/lyaml.lua",
-		"/Scr/scr-test-steven/Programs/automagical/sandbox/blyaml.lua",
-		"/Scr/scr-test-steven/projects/ampar/analysis/md/fig/water_based_free_energy/quis2/r586q/500mM/500mV/ampar_r586q_500mM_500mV_free_energy_kcal.png",
-		"/Scr/scr-test-steven/projects/ampar/analysis/md/t150-100/template.concatWaterProfilesRes1.yaml",
-		"/home/steven/umolflow.alias.yaml",
-		"/Scr/scr-test-steven/projects/ampar/analysis/md/t100/template.concatWaterProfilesRes1.yaml",
-		"/Scr/scr-test-steven/projects/ampar/analysis/md/t500/template.concatWaterProfilesRes1.yaml",
-		"/Scr/scr-test-steven/projects/ampar/analysis/md/fig/water_profile/quis2/r586q/500mM/500mV/ampar_r586q_500mV_water_profiles.yaml",
-		"/Scr/scr-test-steven/projects/ampar/analysis/md/script/water_based_free_energy.py",
-		"/Scr/scr-test-steven/projects/ampar/analysis/md/fig/water_based_free_energy/quis2/r586q/500mM/500mV/ampar_r586q_500mM_500mV_free_energy_kcal.yaml",
-		"/Scr/scr-test-steven/projects/ampar/analysis/md/fig/water_based_free_energy/quis2/r586q/500mM/500mV/ampar_r586q_500mM_500mV_free_energy_kJ.yaml",
-		"/Scr/scr-test-steven/projects/ampar/analysis/md/fig/water_profile/quis2/r586q/500mM/ampar_r586q_500mV_water_profiles.yaml",
-		"/Scr/scr-test-steven/tmp.py",
-		"/Scr/scr-test-steven/Programs/openmm/ninja-cuda8-conda-py35/build.ninja",
-		"/Scr/scr-test-steven/Programs/openmm/ninja-cuda8-conda-py35/rules.ninja",
-		"/Scr/scr-test-steven/Programs/openmm/ninja-cuda8-conda-py35/cmake_install.cmake",
-		"/Scr/scr-test-steven/Programs/openmm/ninja-cuda8-conda-py35/CTestTestfile.cmake",
-		"/Scr/scr-test-steven/Programs/openmm/ninja-cuda8-conda-py35/DartConfiguration.tcl",
-		"/Scr/scr-test-steven/repo/BioEM/sandbox/tutorial/mrc2dx.tcl",
-		"/Scr/scr-test-steven/repo/umolflow/src/app/prep/Reparo/0-1-0/core/script/try/write_fasta.py",
-		"/Scr/scr-test-steven/repo/umolflow/src/app/prep/Reparo/0-1-0/core/script/try/hello_seq.py",
-		"/Scr/scr-test-steven/repo/umolflow/src/app/prep/Reparo/0-1-0/core/script/try/seq_rec.py",
-		"/Scr/scr-test-steven/repo/umolflow/src/app/prep/Reparo/0-1-0/core/script/try/my.fasta",
-		"/Scr/scr-test-steven/repo/umolflow/src/app/prep/Reparo/0-1-0/core/script/try/examples/ls_orchid.fasta",
-		"/Scr/scr-test-steven/repo/umolflow/src/app/prep/AlignStructures/0-1-0/core/script/deps/AlignStructures-0.1.0.tm",
-		"/Scr/scr-test-steven/projects/ampar/analysis/md/fig/water_profile/quis2/r586q/quis2_r586q_water_profile.yaml",
-		"/Scr/scr-test-steven/repo/umolflow/src/app/prep/AlignStructures/0-1-0/core/text/usage.txt",
-		"/Scr/scr-test-steven/repo/umolflow/src/app/prep/AlignStructures/0-1-0/core/script/deps/SaveMolecule-0.1.0.tm",
-		"/Projects/steven/Proposals/XSEDE2017/request.tex",
-		"/Projects/steven/Proposals/XSEDE2017/ampar.tex",
-		"/Scr/scr-test-steven/repo/umolflow/src/app/prep/Reparo/0-1-0/core/text/usage.txt",
-		"/Scr/scr-test-steven/repo/umolflow/src/app/prep/Reparo/0-1-0/core/script/main.py",
-		"/Scr/scr-test-steven/repo/umolflow/src/app/prep/Reparo/0-1-0/core/script/deps/read/readFasta.py",
-		"/Scr/scr-test-steven/repo/umolflow/src/app/prep/Reparo/0-1-0/core/script/deps/read/readPdbSeq.py",
-		"/Scr/scr-test-steven/repo/umolflow/src/app/prep/Reparo/0-1-0/core/script/test/readFasta/test_1.py",
-		"/Scr/scr-test-steven/repo/umolflow/src/app/prep/Reparo/0-1-0/core/script/deps/read/__init__.py",
-		"/Scr/scr-test-steven/repo/umolflow/src/app/prep/Reparo/0-1-0/core/script/test/readPdbSeq/test_1.py",
-		"/Scr/scr-test-steven/repo/umolflow/src/app/prep/Reparo/0-1-0/core/script/deps/__init__.py",
-		"/home/steven/umolflow.alias",
-		"/Scr/scr-test-steven/repo/umolflow/src/app/prep/FindPermeation/0-1-0/core/script/main.py",
-		"/Scr/scr-test-steven/repo/umolflow/src/app/prep/FindPermeation/0-1-0/core/script/deps/gaugePermeation.py",
-		"/Scr/scr-test-steven/repo/umolflow/src/app/prep/FindPermeation/0-1-0/core/script/deps/pbcUnwrap.py",
-		"/Scr/scr-test-steven/repo/umolflow/src/app/prep/FindPermeation/0-1-0/core/script/deps/__init__.py",
-		"/Scr/scr-test-steven/repo/umolflow/src/app/prep/FindPermeation/0-1-0/core/script/deps/saveInfo.py",
-		"/Scr/scr-test-steven/repo/umolflow/src/app/prep/FindPermeation/0-1-0/core/script/deps/saveStates.py",
-		"/Scr/scr-test-steven/repo/umolflow/src/app/prep/FindPermeation/0-1-0/core/script/gaugePermeation.py",
-		"/Scr/scr-test-steven/repo/umolflow/src/app/prep/FindPermeation/0-1-0/core/script/saveStates.py",
-		"/Scr/scr-test-steven/repo/umolflow/src/app/prep/FindPermeation/0-1-0/core/script/saveInfo.py",
-		"/Scr/scr-test-steven/repo/umolflow/src/app/prep/FindPermeation/0-1-0/core/script/deps/save/saveMdat.py",
-		"/Scr/scr-test-steven/repo/umolflow/src/app/prep/FindPermeation/0-1-0/core/script/deps/findStateTransitions.py",
-		"/Scr/scr-test-steven/repo/umolflow/src/app/prep/FindPermeation/0-1-0/core/text/usage.txt",
-		"/Scr/scr-test-steven/repo/umolflow/src/toolkit/io/both/python/dataIO/src/save/saveMdat.py",
-		"/Scr/scr-test-steven/repo/umolflow/src/app/prep/FindPermeation/0-1-0/core/text/keywords.txt",
-		"/Scr/scr-test-steven/repo/umolflow/src/app/prep/FindPermeation/0-1-0/core/script/deps/assignPeriodicStates1D.py",
-		"/Scr/scr-test-steven/projects/glic/analysis/task/4lmk/permeation.yaml",
-		"/Scr/scr-test-steven/repo/umolflow/src/app/io/SaveCoordinate/0-1-0/core/script/test/getCoordinate/test_1.tcl",
-		"/Scr/scr-test-steven/repo/umolflow/src/app/io/SaveCoordinate/0-1-0/core/script/deps/GetCoordinate-0.1.0.tm",
-		"/Scr/scr-test-steven/repo/luapowerlite/umolflowFramework.lua",
-		"/Scr/scr-test-steven/repo/umolflow/src/app/io/SaveCoordinate/0-1-0/core/script/deps/GetBoxSize-0.1.0.tm",
-		"/Scr/scr-test-steven/repo/umolflow/src/toolkit/numeric/tcl/Range/test/test_1.tcl",
-		"/Scr/scr-test-steven/repo/umolflow/src/app/io/SaveCoordinate/0-1-0/core/script/test/getCoordinate/exe.tcl",
-		"/Scr/scr-test-steven/repo/umolflow/src/app/prep/FindPermeation/0-1-0/core/script/deps/read/readData.py",
-		"/Scr/scr-test-steven/repo/umolflow/src/app/prep/FindPermeation/0-1-0/core/script/deps/read/readDataFiles.py",
-		"/Scr/scr-test-steven/repo/umolflow/src/app/prep/FindPermeation/0-1-0/core/script/deps/core/pbcUnwrap.py",
-		"/Scr/scr-test-steven/repo/umolflow/src/app/prep/FindPermeation/0-1-0/core/script/deps/core",
-		"/Scr/scr-test-steven/repo/umolflow/src/app/io/SaveCoordinate/0-1-0/core/text/usage.txt",
-		"/Scr/scr-test-steven/repo/umolflow/src/app/io/SaveCoordinate/0-1-0/core/run.moon",
-		"/Scr/scr-test-steven/repo/umolflow/src/template/pythonApp/core/run.moon",
-		"/Scr/scr-test-steven/repo/umolflow/src/template/vmdApp/core/run.moon",
-		"/home/steven/bin/intelmpirun",
-		"/Scr/scr-test-steven/Gitcode/umolflow/src/app/io/SaveTrajectoryFrame/0-1-0/core/script/deps/SaveTrajectoryFrame-0.1.0.tm",
-		"/Scr/scr-test-steven/Gitcode/umolflow/src/app/prep/MakeTopology/0-1-0/core/text/usage.txt",
-		"/Scr/scr-test-steven/Gitcode/umolflow/src/cli/alias/a.csh",
-		"/Scr/scr-test-steven/Gitcode/umolflow/src/app/io/SaveTrajectoryFrame/0-1-0/core/synccopy.sh",
-		"/Scr/scr-test-steven/Gitcode/umolflow/src/app/io/SaveTrajectoryFrame/0-1-0/core/text/deps.txt",
-		"/Scr/scr-test-steven/Gitcode/umolflow/src/app/io/SaveTrajectoryFrame/0-1-0/core/script/deps/ParseIndexes.tm",
-		"/Scr/scr-test-steven/install/openmpi/1.10.0/bin/mpiexec",
-		"/Scr/scr-test-steven/install/openmpi/1.10.0/bin/mpirun",
-		"/Scr/scr-test-steven/Gitcode/umolflow/src/app/io/SaveTrajectoryFrame/0-1-0/serial.moon",
-		"/Scr/scr-test-steven/projects/AMPA/run/md/quis2/with_preM1/optimized_normal/try3_colvar/namd/r2.namd.tcl",
-		"/Scr/scr-test-steven/Gitcode/umolflow/src/app/prep/ExtractRowsColumns/0-1-0/core/script/deps/readTextData.py",
-		"/Scr/scr-test-steven/Gitcode/umolflow/src/app/prep/ExtractRowsColumns/0-1-0/core/script/deps/readDataFiles.py",
-		"/Scr/scr-test-steven/projects/AMPA/prepare/task/md/designGrid.yaml",
-		"/Scr/scr-test-steven/Gitcode/umolflow/src/app/prep/DesignGridMap/0-1-0/core/script/deps/GridMap/make_grid_map.jl",
-		"/Scr/scr-test-steven/projects/AMPA/run/md/quis2/with_preM1/optimized_normal/try3_colvar/molecule/water_labels.pdb",
-		"/Scr/scr-test-steven/Gitcode/umolflow/src/app/io/SaveBoxSizes/0-1-0/core/text/usage.txt",
-		"/Scr/scr-test-steven/projects/AMPA/run/md/quis2/with_preM1/optimized_normal/try3_colvar/log/r2.log",
-		"/Scr/scr-test-steven/Gitcode/umolflow/src/app/prep/DesignGridMap/0-1-0/core/script/deps/GridMap/GridMap.jl",
-		"/Scr/scr-test-steven/share/MembraneSculptor/script/build_grid.jl",
-		"/Scr/scr-test-steven/Gitcode/umolflow/src/app/prep/DesignGridMap/0-1-0/core/script/test/main/test_1.jl",
-		"/Scr/scr-test-steven/Gitcode/umolflow/src/app/prep/DesignGridMap/0-1-0/core/script/DesignGridMap.jl",
-		"/Scr/scr-test-steven/projects/AMPA/prepare/map/grid/gaussian_slab.dx",
-		"/Scr/scr-test-steven/Gitcode/umolflow/src/app/prep/DesignGridMap/0-1-0/core/script/deps/GridMap/tk/gaussian_slab.jl",
-		"/Scr/scr-test-steven/Gitcode/umolflow/src/app/prep/DesignGridMap/0-1-0/core/script/exe.jl",
-		"/Scr/scr-test-steven/projects/AMPA/prepare/alias.csh",
-		"/Scr/scr-test-steven/projects/AMPA/run/md/quis2/with_preM1/optimized_normal/try3_colvar/namd/r1.namd.tcl",
-		"/Scr/scr-test-steven/share/MembraneSculptor/script/SemiHollowCylinder.jl",
-		"/Scr/scr-test-steven/Gitcode/umolflow/src/app/prep/DesignGridMap/0-1-0/core/text/keywords.txt",
-		"/Scr/scr-test-steven/Gitcode/umolflow/src/app/prep/DesignGridMap/0-1-0/core/text/deps.txt",
-		"/Scr/scr-test-steven/Gitcode/umolflow/src/app/prep/DesignGridMap/0-1-0/core/script/deps/GridMap/warn.jl",
-		"/Scr/scr-test-steven/Gitcode/umolflow/src/app/prep/DesignGridMap/0-1-0/core/script/deps/GridMap/tk/all_shape_functions.jl",
-		"/Scr/scr-test-steven/Gitcode/umolflow/src/app/prep/DesignGridMap/0-1-0/core/script/deps/GridMap/tk/all.jl",
-		"/Scr/scr-test-steven/Gitcode/umolflow/src/app/prep/DesignGridMap/0-1-0/core/script/Main.jl",
-		"/Scr/scr-test-steven/Gitcode/umolflow/src/app/prep/DesignGridMap/0-1-0/core/script/deps/GridMap/build.jl",
-		"/Scr/scr-test-steven/Gitcode/umolflow/src/app/prep/DesignGridMap/0-1-0/core/text/usage.txt",
-		"/Scr/scr-test-steven/Gitcode/umolflow/src/app/prep/DesignGridMap/0-1-0/core/script/GridMap.jl",
-		"/Scr/scr-test-steven/Gitcode/umolflow/src/app/prep/DesignGridMap/0-1-0/core/text/cmd.txt",
-		"/Scr/scr-test-steven/Gitcode/umolflow/src/app/prep/DesignGridMap/0-1-0/core/script/deps/tmp.jl",
-		"/Scr/scr-test-steven/Gitcode/umolflow/src/app/prep/DesignGridMap/0-1-0/core/script/tmp.jl",
-		"/Scr/scr-test-steven/Gitcode/umolflow/src/app/prep/DesignGridMap/0-1-0/core/script/exe.py"
+		"/G/DEVELOP/LuaWorld/apps/lanes/src/3.10.1/src/threading.c",
+		"/G/DEVELOP/LuaWorld/apps/lanes/src/3.10.1/src/threading.h",
+		"/G/DEVELOP/LearnPowerShell/src/L0/main.ps1",
+		"/D/install/lua/lua-5.2.4/src/Makefile",
+		"/D/install/lua/lua-5.2.4/Makefile",
+		"/G/DEVELOP/learngo/lesson/L1/main.go",
+		"/G/DEVELOP/learngo/.gitignore",
+		"/C/Users/Steven/DEVELOP/MirrorAI/tutorial/opencv/T1/t1.py",
+		"/G/DEVELOP/LearnGo/lesson/L1/hello.go",
+		"/C/Users/Steven/Documents/WindowsPowerShell/Microsoft.PowerShell_profile.ps1",
+		"/G/MANUSCRIPT/BlackwellThesis/sublime/proj.sublime-",
+		"/G/DEVELOP/LearnC++/src/array/num.txt",
+		"/G/DEVELOP/LearnC++/src/array/cc.yaml",
+		"/G/DEVELOP/LearnC++/src/array/pointers.c++",
+		"/G/DEVELOP/LearnC++/src/io/generalStream.c++",
+		"/G/DEVELOP/LearnC++/src/io/io_error.c++",
+		"/G/DEVELOP/LearnC++/src/io/cc.yaml",
+		"/G/DEVELOP/LearnC++/src/array/array.c++",
+		"/G/DEVELOP/LearnC++/src/io/id.txt",
+		"/G/DEVELOP/LearnC++/src/io/format.c++",
+		"/G/DEVELOP/LearnC++/src/io/eg.txt",
+		"/G/DEVELOP/LearnC++/src/io/fileIO.c++",
+		"/G/DEVELOP/LearnC++/src/functions/config.yaml",
+		"/G/DEVELOP/LearnC++/src/functions/main.c++",
+		"/G/DEVELOP/LearnC++/src/io/in.c++",
+		"/G/DEVELOP/LearnC++/src/io/out1.txt",
+		"/G/DEVELOP/LearnC++/src/io/out.txt",
+		"/G/DEVELOP/LearnC++/src/io/io.c++",
+		"/G/DEVELOP/LearnC++/src/functions/f.c++",
+		"/G/DEVELOP/LearnC++/src/functions/root.h",
+		"/G/DEVELOP/LearnC++/src/functions/inline.c++",
+		"/G/DEVELOP/LearnC++/src/functions/overload.c++",
+		"/G/DEVELOP/LearnC++/.gitignore",
+		"/G/DEVELOP/LearnC++/src/types/types.c++",
+		"/G/DEVELOP/LearnC++/src/types/range_for_loop.c++",
+		"/G/DEVELOP/LearnC++/src/types/fn.c++",
+		"/G/DEVELOP/LearnC++/src/types/build.ninja",
+		"/G/DEVELOP/LearnC++/src/types/c.yaml",
+		"/G/DEVELOP/LearnC++/src/types/config.yaml",
+		"/G/MANUSCRIPT/BlackwellThesis/preamble/thesis.preamble.tex",
+		"/G/MANUSCRIPT/BlackwellThesis/section/1/main.tex",
+		"/C/Users/Steven/Downloads/clangc/hello.c",
+		"/D/install/DeDRM/DeDRM_tools_6.5.2/ReadMe_First.txt",
+		"/D/install/DeDRM/DeDRM_tools_6.5.2/DeDRM_calibre_plugin/DeDRM_plugin_ReadMe.txt",
+		"/G/DEVELOP/Probabilistic_Programming_in_Haskell/README.md",
+		"/G/DEVELOP/Probabilistic_Programming_in_Haskell/pfp-jun06/COPYRIGHT",
+		"/G/DEVELOP/Probabilistic_Programming_in_Haskell/LICENSE.MD",
+		"/G/DEVELOP/Probabilistic_Programming_in_Haskell/pfp-jun06/Co",
+		"/D/install/libffi/libffi-3.2.1/README",
+		"/D/install/libffi/libffi-3.2.1/LICENSE",
+		"/C/Users/Steven/.bashrc",
+		"/G/RESEARCH/GLIC/pub/draft/simulation_methods.txt",
+		"/D/install/libffi/libffi-3.2.1/libffi-3.2.1/README",
+		"/G/DEVELOP/LearnElectron/src/bookmark/app/main.js",
+		"/G/MANUSCRIPT/BlackwellThesis/BlackwellThesis.tex",
+		"/G/DEVELOP/haskell-cuda/Setup.hs",
+		"/G/DEVELOP/LearnElectron/src/bookmark/app/index.html",
+		"/G/DEVELOP/LearnElectron/src/bookmark/app/style.css",
+		"/G/MANUSCRIPT/BlackwellThesis/.gitignore",
+		"/G/MANUSCRIPT/BlackwellThesis/c.bat",
+		"/G/MANUSCRIPT/BlackwellThesis/task/compile.lua",
+		"/G/MANUSCRIPT/BlackwellThesis/style/uiuc.sty",
+		"/G/MANUSCRIPT/BlackwellThesis/section/2/main.tex",
+		"/G/RESEARCH/GLIC/pub/draft/simulation_methods.",
+		"/G/DEVELOP/Topol/README.md",
+		"/G/MANUSCRIPT/BlackwellThesis/style/steven.sty",
+		"/G/MANUSCRIPT/BlackwellThesis/style/mathchars.sty",
+		"/G/MANUSCRIPT/BlackwellThesis/thesis.bbl",
+		"/G/MANUSCRIPT/BlackwellThesis/main/BlackwellThesis.tex",
+		"/G/DEVELOP/BFEA/BFEA/core/getAllBIC.py",
+		"/G/DEVELOP/BFEA/BFEA/tk/sample/split.py",
+		"/G/DEVELOP/BFEA/BFEA/core/__init__.py",
+		"/G/DEVELOP/BFEA/BFEA/core/bma.py",
+		"/G/DEVELOP/BFEA/BFEA/tk/stat/rmse.py",
+		"/G/DEVELOP/BFEA/tmp.py",
+		"/G/DEVELOP/BFEA/BFEA/core/bic.py",
+		"/G/DEVELOP/BFEA/test/tk/sample/split/test_2.py",
+		"/G/DEVELOP/BFEA/BFEA/compute.py",
+		"/G/DEVELOP/BFEA/BFEA/core/assess.py",
+		"/G/DEVELOP/BFEA/BFEA/__init__.py",
+		"/G/DEVELOP/BFEA/test/core/bic/test_1.py",
+		"/G/DEVELOP/BFEA/BFEA/bma.py",
+		"/G/DEVELOP/plot/setup.py",
+		"/G/DEVELOP/BFEA/BFEA/tk/sample/__init__.py",
+		"/G/DEVELOP/BFEA/setup.py",
+		"/G/DEVELOP/BFEA/BFEA/tk/__init__.py",
+		"/G/COURSE/Applied_stochastic_processes/project/slides/presentation/index.html",
+		"/G/DEVELOP/Markoview/markoview/app/js/tk/d3/network/node/addNodes.ts",
+		"/G/DEVELOP/Markoview/markoview/app/js/tk/d3/network/edge/curved/addCurvedEdges.ts",
+		"/G/DEVELOP/Markoview/markoview/app/js/tk/d3/network/init/init.ts",
+		"/G/DEVELOP/Markoview/markoview/app/css/markoview.css",
+		"/G/DEVELOP/Markoview/.gitignore",
+		"/G/DEVELOP/Markoview/index.html",
+		"/G/DEVELOP/Markoview/demo.html",
+		"/G/DEVELOP/Markoview/markoview/app/js/tk/d3/network/addForceNetwork.ts",
+		"/G/DEVELOP/Markoview/markoview/app/js/tk/d3/network/position/edge/arc/updateArcEdges.ts",
+		"/G/DEVELOP/Markoview/markoview/app/js/component/draw/network/drawNetwork.ts",
+		"/G/DEVELOP/Markoview/markoview/app/js/parameter/dom/elementId/button/buttonIds.ts",
+		"/G/DEVELOP/Markoview/markoview/index.html",
+		"/G/DEVELOP/Markoview/markoview/app/js/tk/d3/network/position/edge/arc/updateArcEdges.js",
+		"/G/DEVELOP/Markoview/try/pack4/t1.html",
+		"/G/DEVELOP/Markoview/markoview/app/js/component/draw/network/clear/clearNetwork.ts",
+		"/G/DEVELOP/Markoview/markoview/app/js/tk/d3/network/position/updateNodeEdgePosition.ts",
+		"/G/DEVELOP/Markoview/markoview/app/js/tk/d3/network/position/edge/curved/updateCurvedEdges.ts",
+		"/G/DEVELOP/LearnD3/src/tutorial/try/try2/svg4.html",
+		"/G/DEVELOP/LearnD3/src/tutorial/try/try2/index.html",
+		"/G/COURSE/Applied_stochastic_processes/project/slides/presentation/.gitignore",
+		"/G/COURSE/Applied_stochastic_processes/project/slides/presentation/reveal/css/reveal.css",
+		"/G/COURSE/Applied_stochastic_processes/project/slides/presentation/css/yhw.css",
+		"/G/COURSE/Applied_stochastic_processes/project/slides/presentation/reveal/css/theme/yhw.css",
+		"/G/COURSE/Applied_stochastic_processes/project/slides/presentation/section/svg/line.md",
+		"/G/COURSE/Applied_stochastic_processes/project/slides/presentation/reveal/css/yhw_style.css",
+		"/G/Meeting/group_meeting/literature/2016-10-05/index.html",
+		"/G/DEVELOP/Markoview/markoview/app/js/tk/d3/network/arrowHead/curved/addArrowHeadToCurves.ts",
+		"/G/DEVELOP/Markoview/markoview/app/js/tk/d3/network/arrowHead/straight/addArrowHeadToLines.ts",
+		"/G/DEVELOP/Markoview/markoview/app/js/tk/d3/network/position/updateNodeEdgePosition.js.map",
+		"/G/DEVELOP/Markoview/markoview/app/js/tk/d3/network/position/updateNodeEdgePosition.js",
+		"/G/DEVELOP/LearnD3/src/tutorial/try/try1/index.html",
+		"/G/DEVELOP/LearnD3/src/tutorial/try/try1/miserables.json",
+		"/G/DEVELOP/LearnD3/src/tutorial/try/try2/force.csv",
+		"/G/DEVELOP/Markoview/markoview/app/js/tk/d3/network/arrowHead/addArrowHead.ts",
+		"/G/DEVELOP/Markoview/markoview/app/js/tk/d3/network/position/node/updateNodes.ts",
+		"/G/DEVELOP/Markoview/markoview/app/js/tk/d3/network/position/edge/straight/updateStraightEdges.ts",
+		"/G/DEVELOP/Markoview/markoview/app/js/tk/d3/network/position/curved/updateCurvedEdges.ts",
+		"/G/DEVELOP/Markoview/markoview/app/js/tk/d3/network/edge/straight/addStraightEdges.ts",
+		"/G/DEVELOP/Markoview/markoview/app/js/tk/d3/network/edge/addEdges.ts",
+		"/G/DEVELOP/LearnD3/src/tutorial/ch6/index.html",
+		"/G/DEVELOP/Markoview/markoview/app/js/parameter/dom/elementId/svg/svgIds.ts"
 	],
 	"find":
 	{
-		"height": 26.0
+		"height": 27.0
 	},
 	"find_in_files":
 	{
@@ -358,137 +247,137 @@
 	},
 	"find_state":
 	{
-		"case_sensitive": false,
+		"case_sensitive": true,
 		"find_history":
 		[
-			"lyaml_dir",
-			"libyaml_dir",
-			"${lua}",
-			"bin",
-			" ${lua}/",
-			"${lua}",
-			"bin",
-			" ${lua}/",
-			"${lua}",
-			"bin",
-			" ${lua}/",
-			"${lua}",
-			"lua",
-			"libyaml",
-			"lyaml_dir",
-			"lyaml_c_dir",
-			"lyaml_dir",
-			"deps/lyaml/init",
-			"yamlua",
-			"compile",
-			"combine",
-			"cc",
-			"ext/yaml/",
-			"yaml",
-			"-o ",
-			"yaml.a",
-			"yamlua",
-			"lyaml/init",
-			"lyaml.init",
-			"lyaml/init",
-			"lyaml/explicit",
-			"kcal",
-			"500mM",
-			"kcal",
-			"500mV",
-			"res2",
-			"try1",
-			"150mM",
-			"- umol",
-			"alias ",
-			"\"",
-			"  \"auto",
-			"try2",
-			"include",
-			"add_executable",
-			"my_seq",
-			"try1",
-			"target_mol",
-			"ref_mol",
-			"Q",
-			"readFdbSeq",
-			"readFasta",
-			"seq",
-			"AddDataIndexColumn",
-			"allow",
-			"}.\n",
-			"asymm",
-			"symm",
-			"asymm",
-			"a symm",
-			"This",
-			"prep",
-			"[],",
-			"[,",
-			"sys",
-			"json",
-			"numpy",
-			"saveStates",
-			"deps",
-			"argd['outputs']['state']",
-			"argd['outputs']['info']",
-			"states",
-			"info",
-			"states",
-			"matrix_axis",
-			"matrix",
-			"axis",
-			"dim",
-			"abc1",
-			"args",
-			"AddDataIndexColumn",
-			"hosts_file",
-			"umolmutatep",
-			"mutate",
-			"MutateResidues",
-			"AddDataIndexColumn",
-			"TIP",
-			"ScaleDXD",
-			"ScaleDX",
-			"grid",
-			"m",
-			"Main",
-			"input",
-			"fn",
-			"using",
-			"AddDataIndexColumn",
-			"LoadCoordinates",
-			"100mV_",
-			"addLinearMatrixShift",
-			"lice",
-			"LinearMatrixShift",
-			"pmepot_data",
-			"pmepot_create",
-			"pme",
-			"72",
-			"%.2f",
-			"epotential.dx",
-			"epotential",
-			"[e]",
-			"1",
-			"1],",
-			"1]",
-			"1",
-			"pattern0",
-			"re",
-			"e",
-			"[A-Z,a-z]",
-			"[A-Z]",
-			"NAN",
-			"NA",
-			"shape2",
-			"array",
-			"ExtractPartialDX",
-			"LinearMatrixShift",
-			"]",
-			"[",
+			"src",
+			"1.7.4",
+			"go_path",
+			"luarocks_path",
+			"5.2.4",
+			"5.2",
+			"2.4.2",
+			"version",
+			"5.2",
+			"appdata",
+			"%APPDATA%",
+			"mingw:",
+			"2",
+			"lua_path",
+			"go-pa",
+			"npm_path",
+			"docker_path",
+			"go_path",
+			"io",
 			"i",
-			"AddDataIndexColumn"
+			"infile",
+			"in",
+			"cudnn",
+			"cuda",
+			"void",
+			"explicit ",
+			"power_aux",
+			"float",
+			"c++",
+			"theorem",
+			"}$",
+			"equation",
+			"clang",
+			"\\",
+			"CUDA_PATH",
+			"London",
+			"mathchars",
+			"java_jdk_8_path",
+			"bin",
+			"n_prediction",
+			"getArray",
+			";\n",
+			"pre",
+			"code",
+			"../../reveal",
+			"Straight",
+			"line",
+			"updateStraightEdges",
+			"Curved",
+			"any",
+			"(d",
+			"Curved",
+			"straight",
+			"Straight",
+			"Edges",
+			"markder",
+			"updateNodeEdgePosition",
+			"forceTick",
+			"height",
+			"input",
+			"scale.linear",
+			"nodeHash",
+			"names",
+			"string",
+			"input.network.size",
+			"nodes",
+			"networkSize",
+			"node",
+			"matrix[i][j]",
+			"form.matrix",
+			"matrix",
+			"Tensor",
+			"matrix",
+			"getMatrix",
+			"matrix",
+			"Matrix",
+			"matrix",
+			"Matrix",
+			"array",
+			"vector",
+			"matrix",
+			"t",
+			"randomizeButtonId",
+			"p.default",
+			"params",
+			"p.dom.id.",
+			"inputMatrixSize",
+			"set_network_size",
+			"ButtonI",
+			"resizeMatrixButtonId",
+			"matrixFormId",
+			"m",
+			"ButtonId",
+			"showMatrixButtonId",
+			"matrixSizeInputId",
+			"defaultMatrixSize",
+			"matrixFormId",
+			"defaultMatrixSize",
+			"ltMatrixSize = 3;\n\n    // add initi",
+			"randomizeButtonId",
+			"showMatrixButtonId",
+			"matrixSizeInputId",
+			"resizeMatrixButtonId",
+			"vectorFormId",
+			"defaultVectorSize",
+			"randomizeButtonId",
+			"showVectorButtonId",
+			"params",
+			"matrixSizeInputId",
+			"resizeMatrixButtonId",
+			" = ",
+			"const ",
+			"\"../../",
+			"showMatrixButtonId",
+			"defaultMatrixSize",
+			"matrixFormId",
+			"size",
+			"defaultMatrixSize",
+			"matrixFormId",
+			"M",
+			"m",
+			"\"../../",
+			"newFormId",
+			"any",
+			"matrixReSizeButtonId",
+			"DTMC_P",
+			"../",
+			"jQuery(`#${"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -496,17 +385,12 @@
 		"regex": false,
 		"replace_history":
 		[
-			"numpy",
-			"    ",
-			"  - ",
-			" ",
-			"    "
 		],
 		"reverse": false,
 		"show_context": true,
 		"use_buffer2": true,
 		"whole_word": false,
-		"wrap": false
+		"wrap": true
 	},
 	"groups":
 	[
@@ -522,7 +406,7 @@
 	},
 	"input":
 	{
-		"height": 31.0
+		"height": 38.0
 	},
 	"layout":
 	{
@@ -547,23 +431,19 @@
 		]
 	},
 	"menu_visible": true,
-	"output.find_results":
+	"output.doc":
 	{
 		"height": 0.0
 	},
-	"output.sublime_haskell_error_panel":
+	"output.find_results":
 	{
-		"height": 100.0
-	},
-	"output.sublime_haskell_output_panel":
-	{
-		"height": 175.0
+		"height": 0.0
 	},
 	"pinned_build_system": "",
 	"project": "p.sublime-project",
 	"replace":
 	{
-		"height": 48.0
+		"height": 50.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -601,7 +481,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 176.0,
+	"side_bar_width": 301.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
